@@ -46,17 +46,12 @@
 
 - 客户端使用
 - 客户端成功登录后，即可以使用融合通信标准客户端所有功能。
->融合通信客户端常用功能
->
->> 企业通讯录
->
->>即时消息
->
->>内部VoIP通话
->
->>企业内部轻应用
->
->>多方通话
+	- 融合通信客户端常用功能
+		- 企业通讯录
+		- 即时消息
+		- 内部VoIP通话
+		- 企业内部轻应用: 通知与公告，请假条，流程审批
+		- 多方通话
 
 到此为止，您已经完成了**融合通信系统快速上手部分**。下面将对该系统上的二次开发进行简要介绍。
 ###轻应用开发
@@ -65,13 +60,18 @@
 - 一个helloworld的轻应用的例子
 	- 下载源代码
 	下载地址：https://github.com/sipsys/ICT_Doc/tree/master/examples/helloworld
+
 	`git clone https://github.com/sipsys/ICT_Doc`
+
 	`cd examples/helloworld`
+
 	- 部署该代码到web server
 	以apache为例，上传该目录到/var/www/html，该helloworld的访问url为：http://apacheserver/examples/helloworld/index.html
 	- 创建轻应用
 		进入企业门户，[轻应用]->>[创建新轻应用]，
+
 `轻应用名字：HelloWorld `
+
 `轻应用入口地址：http://apacheserver/examples/helloworld/index.html`
 		
 		然后，发布该轻应用。
