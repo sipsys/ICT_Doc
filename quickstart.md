@@ -65,14 +65,14 @@
 - 一个helloworld的轻应用的例子
 	- 下载源代码
 	下载地址：https://github.com/sipsys/ICT_Doc/tree/master/examples/helloworld
-	git clone https://github.com/sipsys/ICT_Doc
-	cd examples/helloworld
+	`git clone https://github.com/sipsys/ICT_Doc`
+	`cd examples/helloworld`
 	- 部署该代码到web server
 	以apache为例，上传该目录到/var/www/html，该helloworld的访问url为：http://apacheserver/examples/helloworld/index.html
 	- 创建轻应用
 		进入企业门户，[轻应用]->>[创建新轻应用]，
->轻应用名字：HelloWorld 
->轻应用入口地址：http://apacheserver/examples/helloworld/index.html
+`轻应用名字：HelloWorld `
+`轻应用入口地址：http://apacheserver/examples/helloworld/index.html`
 		
 		然后，发布该轻应用。
 
