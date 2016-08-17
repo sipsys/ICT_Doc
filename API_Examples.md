@@ -1,7 +1,10 @@
 ##im.sessions.get
 获取用户最近联系人列表
 ### URL
-https://ictaddress/elgg/webservices/V1.1/im.sessions.get
+>
+>https://ictaddress/elgg/webservices/V1.1/im.sessions.get
+>
+
 ### HTTP请求方式
 POST
 ### 是否需要登录
