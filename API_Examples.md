@@ -10,6 +10,7 @@ POST
 ### 请求参数
     |必选|类型及范围|说明
 ----|----|----------|------
+apikey|true|string|开发者的api key
 accessToken|true|string|授权访问token，在author.get中获得。
 userid|true|string|当前用户的userid
 offset|false|int|获取结果的偏移量
