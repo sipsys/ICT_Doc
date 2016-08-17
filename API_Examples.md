@@ -1,5 +1,8 @@
 ##im.sessions.get
+###API功能
 获取用户最近联系人列表
+###应用场景
+该API用于第三方应用获取某个用户的最近联系人列表。
 ### URL
 >
 >https://ictaddress/elgg/webservices/V1.1/im.sessions.get
